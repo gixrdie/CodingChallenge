@@ -1,0 +1,160 @@
+/* Stile Generale */
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.box{
+    width: 700px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto; margin-top: 20px;
+    border-radius: 3%;
+}
+
+/* Stile Header */
+
+.logo{
+    width: 150px;
+}
+
+header{
+    padding-top: 60px;
+}
+
+header > span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(54, 237, 51);
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+;
+}
+
+/* Stile Nav */
+
+nav{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(54, 237, 51);
+    margin: auto;
+    border-radius: 10px;
+}
+
+nav > button{
+    font-size: 10px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+button:hover{
+    font-size: 12px;
+}
+
+/* Stile Main */
+
+
+.id-monopattino{
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.distanza .testocarica{ 
+    font-size: 14px;
+}
+
+main > div{
+    text-align: left;
+    margin-left: 65px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.displaybatteria{
+    display: inline-block;
+}
+
+
+.batteria100{
+    width: 300px;
+    height: 15px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: rgba(123, 120, 120, 0.6);
+}
+
+
+.percentuale1{
+    width: 65%;
+    height: 15px;
+    background-color: rgb(230, 123, 41);
+    border-radius: 5px;
+}
+
+.percentuale2{
+    width: 89%;
+    height: 15px;
+    background-color: rgb(54, 237, 51);
+    border-radius: 5px;
+}
+
+.percentuale3{
+    width: 21%;
+    height: 15px;
+    background-color: rgb(165, 22, 22);
+    border-radius: 5px;
+}
+
+.dati-monopattino{
+    margin-top: 30px;
+    line-height: 18px;
+}
+
+.id-monopattino:hover{
+    color: grey;
+}
+
+
+.percentuale1:hover{
+    border: solid white 1px;
+}
+
+.percentuale2:hover{
+    border: solid white 1px;
+}
+
+.percentuale3:hover{
+    border: solid white 1px;
+}
+
+/* Stile Footer */
+
+footer > span{
+    color: rgb(35, 34, 34);
+    font-weight: bold;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer > span:hover{
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    border: groove rgb(35, 34, 34) 1px;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer:hover{
+    background-color: rgba(148, 145, 145, 0.6);
+}
